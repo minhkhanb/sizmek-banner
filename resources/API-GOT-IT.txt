@@ -1,0 +1,41 @@
+﻿
+
+ 
+
+Please also kindly noted the formular AT ALL TIME
+
+(Voucher Used +Voucher Active) < Limit
+
+Here we have the doc and test server info for the voucher issuing.
+
+
+Please refer to this doc https://gotitvn.api-docs.io/v0.1/
+
+
+The test environment is at https://beta.biz.gotit.vn/api/{API Path} and Key (please drag) is 454389bceef3a5979c09652ac71ee8d45e3d4b53de0bf338560773b7c65d33a6
+
+
+You can use the /transaction API to issue a voucher. Please refer to the following.
+
+
+Please send us the requesting IP so we can open the firewall.
+
+
+{"productId":"866", 
+
+"productPriceId":"2006”
+
+"quantity":1, Allways '1'
+
+"expiryDate":"2016-11-04", Expiry in YYYY-MM-DD format
+
+"refId":"Sacombank Feb",
+
+"campaignNm": " Sacombank Feb"
+
+"voucherRefId":"QWERTYU****"} Unique ID to reference the voucher
+
+đây là new API key phía Got It cung cấp cho team mình: 
+
+e8ba7f58ff6dda0a7f310e3b16f2940fbcc2ce7a3c432ebf5b3fe346828b0ae5
+
